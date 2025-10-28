@@ -19,7 +19,7 @@ li {
   margin-top: 15px;
 }
 .main-footer a {
-  color: rgb(217, 217, 217);
+  color: #b3b3b3;
 }
 
 .main-footer input {
@@ -35,20 +35,22 @@ li {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 4px;
+  color: white;
 }
 .main-footer p {
   font-size: 16px;
   color: rgb(155, 155, 155);
 }
-
+.all-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.339), rgba(0, 0, 0, 0.5)),
+    url("./black paper texture.webp") center/cover no-repeat;
+}
 .main-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  color: white;
+  color: #b3b3b3;
   padding: 150px 50px 50px 50px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./black paper texture.webp") center/cover no-repeat;
 }
 
 .main-footer .col {
@@ -73,7 +75,7 @@ li {
 form {
   border: none;
   outline: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #b3b3b3;
   width: 80%;
   margin-top: 20px;
 }
@@ -129,12 +131,13 @@ form input:autofill {
 }
 
 hr {
-  background-color: aqua !important;
-  padding-bottom: 50pxs;
+  background-color: rgb(62, 62, 62) !important;
+  border: none;
+  outline: none;
+  height: 1px;
 }
 
 .copyright-section {
-  background-color: rgb(22, 1, 31);
   width: 100%;
   color: rgb(155, 155, 155);
   text-align: center;
