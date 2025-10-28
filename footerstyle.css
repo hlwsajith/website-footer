@@ -4,6 +4,8 @@
 }
 body {
   font-family: poppins;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .main-footer ul,
@@ -22,7 +24,6 @@ li {
 
 .main-footer input {
   background-color: transparent;
-  border-bottom: 1px solid white;
 }
 .footer-logo img {
   width: 120px;
@@ -31,27 +32,30 @@ li {
 
 .main-footer h3 {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 .main-footer p {
-  font-size: 14px;
+  font-size: 16px;
+  color: rgb(155, 155, 155);
 }
 
 .main-footer {
   display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: space-between;
-  background-color: rgb(22, 1, 31);
+  flex-wrap: wrap;
+  justify-content: space-around;
   color: white;
-  padding: 120px 120px 120px 120px;
+  padding: 150px 50px 50px 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./black paper texture.webp") center/cover no-repeat;
 }
 
 .main-footer .col {
-  width: 285px;
+  width: 350px;
   display: flex;
   flex-direction: column;
+  flex-basis: 17%;
 }
 
 #folow-us-text {
@@ -63,4 +67,86 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 120px;
+  margin-top: 50px;
+}
+
+form {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  width: 80%;
+  margin-top: 20px;
+}
+
+#footer-description {
+  margin-top: 20px;
+}
+form .fa-arrow-right {
+  background-color: transparent;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+form input {
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+
+form button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+form .fa-arrow-right {
+  color: white;
+}
+form .fa-envelope {
+  color: white;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+form input:active,
+:focus:hover {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(192, 192, 192);
+}
+form input:-webkit-autofill {
+  background-color: transparent !important;
+}
+
+form input:-moz-autofill {
+  background-color: transparent !important;
+}
+
+form input:autofill {
+  background-color: transparent !important;
+}
+
+hr {
+  background-color: aqua !important;
+  padding-bottom: 50pxs;
+}
+
+.copyright-section {
+  background-color: rgb(22, 1, 31);
+  width: 100%;
+  color: rgb(155, 155, 155);
+  text-align: center;
+}
+.copyright {
+  padding: 40px 0px 40px 0px;
+}
+
+.col .fa-solid {
+  padding-right: 15px;
+  font-size: 18px;
+}
+.col:nth-child(5) {
+  text-align: start;
 }
