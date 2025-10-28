@@ -13,12 +13,27 @@ a {
   list-style: none;
 }
 
+li {
+  margin-top: 15px;
+}
 .main-footer a {
   color: rgb(217, 217, 217);
 }
 
+.main-footer input {
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+.footer-logo img {
+  width: 120px;
+  border-radius: 100%;
+}
+
 .main-footer h3 {
   font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .main-footer p {
   font-size: 14px;
@@ -26,16 +41,21 @@ a {
 
 .main-footer {
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(22, 1, 31);
   color: white;
-  padding: 20px 50px 20px 50px;
+  padding: 120px 120px 120px 120px;
 }
 
 .main-footer .col {
-  width: 185px;
+  width: 285px;
   display: flex;
   flex-direction: column;
+}
+
+#folow-us-text {
+  margin: 20px 0px 12px 0px;
 }
 .footer-social-icons {
   display: flex;
