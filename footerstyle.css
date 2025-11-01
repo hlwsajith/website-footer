@@ -153,3 +153,35 @@ hr {
 .col:nth-child(5) {
   text-align: start;
 }
+
+@media (max-width: 768px) {
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items */
+    gap: 30px; /* Space between items */
+    text-align: center;
+    padding: 20px 15px;
+  }
+  form {
+    width: 100%;
+  }
+  .footer-social-icons {
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .col:nth-child(5) {
+    text-align: center;
+  }
+}
